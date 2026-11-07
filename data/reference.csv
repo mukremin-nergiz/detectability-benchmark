@@ -1,0 +1,51 @@
+id,title,place,gravity,magnetic,gradient,recommended
+K01,Air-filled dissolution cavity in gypsum,"Sivas, Türkiye",10.7 µGal (not detectable),0.0048 nT (not detectable),0.0018 nT (not detectable),none
+K02,"Same gypsum cavity, water-filled","Sivas, Türkiye",6.16 µGal (not detectable),0.0048 nT (not detectable),0.0018 nT (not detectable),none
+K03,Clay-filled dissolution pocket in gypsum,"Sivas, Türkiye",0.873 µGal (not detectable),0.0953 nT (not detectable),0.0237 nT (not detectable),none
+K04,Covered cavity at 40 m below the Konya plain,"Karapınar, Konya, Türkiye",13.3 µGal (not detectable),0.0274 nT (not detectable),0.0017 nT (not detectable),none
+K05,Void below a forming sinkhole,"Karapınar, Konya, Türkiye",39.6 µGal (marginal),0.241 nT (not detectable),0.0454 nT (not detectable),gravity
+K06,Loosened soil below a sagging depression,"Çumra, Konya, Türkiye",37.4 µGal (marginal),not assessed,not assessed,gravity
+K07,Limestone cave in classical karst,"Trieste Karst, Italy",7.13 µGal (not detectable),0.0573 nT (not detectable),0.0127 nT (not detectable),none
+K08,Connected cavity network in karst limestone,"Muan, South Korea",25.3 µGal (marginal),0.123 nT (not detectable),0.0253 nT (not detectable),gravity
+K09,Sediment-filled cavity below a foundation site,Peninsular Malaysia,30.3 µGal (marginal),0.295 nT (not detectable),0.0542 nT (not detectable),gravity
+K10,Cave passage in gypsum,"Sorbas, Almería, Spain",29.6 µGal (marginal),0.0056 nT (not detectable),0.0014 nT (not detectable),gravity
+K11,Infilled collapse doline in gypsum,"Sivas, Türkiye",141 µGal (clearly detectable),4.87 nT (marginal),0.59 nT (not detectable),gravity
+M01,Open shaft of an old iron mine,"New Jersey, USA",90.3 µGal (clearly detectable),17.5 nT (clearly detectable),12 nT (clearly detectable),gradient
+M02,Copper-mine shaft under 3 m of sediment,"New Jersey, USA",31.2 µGal (marginal),0.699 nT (not detectable),0.322 nT (not detectable),gravity
+M03,Partially filled coal-mine shaft,"Shrewsbury, UK",3.58 µGal (not detectable),not assessed,not assessed,none
+M04,Capped and buried mine shaft,"New Jersey, USA",12.8 µGal (not detectable),0.871 nT (not detectable),0.201 nT (not detectable),none
+M05,Abandoned mine gallery,"Gangwon, South Korea",15.4 µGal (not detectable),0.543 nT (not detectable),0.0946 nT (not detectable),none
+M06,Deep coal gallery,"Upper Silesia, Poland",8.55 µGal (not detectable),0.0413 nT (not detectable),0.0031 nT (not detectable),none
+T01,"Known test tunnel, 3 m wide and 2 m high","Attica, Greece",59.5 µGal (clearly detectable),0.695 nT (not detectable),0.314 nT (not detectable),gravity
+T02,"Air-filled tunnel, 2 m wide, about 12 m deep","Cambridgeshire, UK",8.21 µGal (not detectable),0.0567 nT (not detectable),0.0089 nT (not detectable),none
+T03,Historic tunnel in sandstone,"Liverpool, UK",52.5 µGal (marginal),0.703 nT (not detectable),0.212 nT (not detectable),gravity
+T04,Qanat-type water tunnel in alluvium,"Tehran, Iran",5.39 µGal (not detectable),not assessed,not assessed,none
+T05,Lined tunnel in stiff clay,"London, UK",46.3 µGal (marginal),0.115 nT (not detectable),0.0124 nT (not detectable),gravity
+A01,Burial chamber inside a mound,"Newgrange, Ireland",17.9 µGal (not detectable),not assessed,not assessed,none
+A02,Crypt below a church floor,"Pukanec, Slovakia",88.1 µGal (clearly detectable),1.52 nT (not detectable),0.812 nT (not detectable),gravity
+A03,Coffin niches,"Pukanec, Slovakia",15.7 µGal (not detectable),0.442 nT (not detectable),0.612 nT (not detectable),none
+A04,Rock-cut burial chamber in limestone,"Saqqara, Egypt",21.1 µGal (not detectable),0.167 nT (not detectable),0.0553 nT (not detectable),none
+A05,Empty cistern below a cloister,"Valencia region, Spain",165 µGal (clearly detectable),1.73 nT (not detectable),0.675 nT (not detectable),gravity
+A06,"Same cistern, water-filled","Valencia region, Spain",90.4 µGal (clearly detectable),1.73 nT (not detectable),0.675 nT (not detectable),gravity
+A07,Underground-settlement room in tuff,"Nevşehir, Türkiye",6.24 µGal (not detectable),not assessed,not assessed,none
+G01,Weathered basalt dyke under cover,"Heldburg, Germany",206 µGal (clearly detectable),988 nT (clearly detectable),307 nT (clearly detectable),gradient
+G02,Basalt dyke cutting chalk,"County Antrim, UK",79.7 µGal (clearly detectable),522 nT (clearly detectable),159 nT (clearly detectable),gradient
+G03,Basalt dyke within basalt lavas,"County Antrim, UK",0 µGal (not detectable),0 nT (not detectable),0 nT (not detectable),none
+G04,Kimberlite pipe,"Borborema Province, Brazil",not assessed,888 nT (clearly detectable),25.7 nT (clearly detectable),magnetic
+G05,Podiform chromite pod in ophiolite,"Osmaniye, Türkiye",13.1 µGal (not detectable),0 nT (not detectable),0 nT (not detectable),none
+G07,Magnetite ore body in serpentinite,"Divriği, Sivas, Türkiye",1.02e+03 µGal (clearly detectable),7.38e+03 nT (clearly detectable),251 nT (clearly detectable),magnetic
+G08,"Basin-bounding fault, sediment against marble","Denizli, Türkiye",1.19e+04 µGal (clearly detectable),not assessed,not assessed,gravity
+G09,Small-throw buried fault under alluvium,"Eskişehir, Türkiye",268 µGal (clearly detectable),0.49 nT (not detectable),0.0174 nT (not detectable),gravity
+G10,Salt diapir in the Sivas Basin,"Sivas, Türkiye",2.26e+03 µGal (clearly detectable),5.3 nT (marginal),0.0123 nT (not detectable),gravity
+G11,Shallow buried bedrock valley,"Ottawa, Canada",147 µGal (clearly detectable),1.67 nT (not detectable),0.377 nT (not detectable),gravity
+G12,Wide buried valley,"Kansas, USA",215 µGal (clearly detectable),5.88 nT (marginal),0.786 nT (not detectable),gravity
+G13,Buried valley with dense till fill,"Illinois, USA",221 µGal (clearly detectable),6.38 nT (marginal),0.378 nT (not detectable),gravity
+F01,Single steel drum at 1 m,Central Italy,2.09 µGal (not detectable),853 nT (clearly detectable),1.36e+03 nT (clearly detectable),gradient
+F02,Single steel drum at 3 m,"Illinois, USA",0.205 µGal (not detectable),68.9 nT (clearly detectable),46.5 nT (clearly detectable),gradient
+F03,Buried steel underground storage tank,"Illinois, USA",23.9 µGal (marginal),9.75e+03 nT (clearly detectable),8.63e+03 nT (clearly detectable),gradient
+F04,Steel gas pipeline,"Northern England, UK",4.03 µGal (not detectable),768 nT (clearly detectable),576 nT (clearly detectable),gradient
+F05,"250 kg aerial bomb at 1.8 m, drone magnetometer",Latvia,0.623 µGal (not detectable),66.6 nT (clearly detectable),33.5 nT (clearly detectable),gradient
+F06,"250 kg bomb buried 4 m, sensor 4 m above the seabed",North Sea (German sector),0.135 µGal (not detectable),6.83 nT (marginal),2.04 nT (marginal),gradient
+F07,"Small artillery shell, shallow, drone at 2 m",Central Spain,0.119 µGal (not detectable),2.27 nT (not detectable),1.48 nT (marginal),gradient
+F08,"Same shell, ground gradiometer",Central Spain,0.119 µGal (not detectable),36.8 nT (clearly detectable),104 nT (clearly detectable),gradient
+F09,"50 kg bomb at 3 m, ground survey",Central Germany,0.0419 µGal (not detectable),13.8 nT (clearly detectable),9.64 nT (clearly detectable),gradient

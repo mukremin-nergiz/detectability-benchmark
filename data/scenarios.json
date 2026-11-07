@@ -1,0 +1,2952 @@
+[
+ {
+  "id": "K01",
+  "title_tr": "Sivas jipsinde hava dolu erime boşluğu",
+  "title": "Air-filled dissolution cavity in gypsum",
+  "place": "Sivas, Türkiye",
+  "setting": "Building plot on Sivas gypsum; GPR shows fractures and dissolution spaces in the top 5 m.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 5,
+   "size": 4,
+   "material": "air",
+   "host": "gypsum"
+  },
+  "survey": {
+   "latitude": 39.75,
+   "longitude": 37.02,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://acikerisim.gumushane.edu.tr/xmlui/handle/20.500.12440/2936",
+   "https://research.itu.edu.tr/en/publications/sinkhole-development-in-the-sivas-gypsum-karst-turkey/"
+  ],
+  "assumptions": [
+   "Cavity size (4 m) chosen at the scale of the dissolution spaces described; not a measured value."
+  ],
+  "question": "Survey planning, Sivas, Türkiye. Building plot on Sivas gypsum; GPR shows fractures and dissolution spaces in the top 5 m. The target (air-filled dissolution cavity in gypsum) has its top about 5 m below the surface and is about 4 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 10.7265,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.959,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.0048,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.002,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0018,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.004,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "K02",
+  "title_tr": "Aynı boşluk, su dolu",
+  "title": "Same gypsum cavity, water-filled",
+  "place": "Sivas, Türkiye",
+  "setting": "As K01, but the void lies below the water table and is water-filled.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 5,
+   "size": 4,
+   "material": "water",
+   "host": "gypsum"
+  },
+  "survey": {
+   "latitude": 39.75,
+   "longitude": 37.02,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://acikerisim.gumushane.edu.tr/xmlui/handle/20.500.12440/2936",
+   "https://journal.geo.sav.sk/cgg/article/download/20/16"
+  ],
+  "assumptions": [
+   "Cavity size as K01."
+  ],
+  "question": "Survey planning, Sivas, Türkiye. As K01, but the void lies below the water table and is water-filled. The target (same gypsum cavity, water-filled) has its top about 5 m below the surface and is about 4 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 6.162,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.551,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.0048,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.002,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0018,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.004,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "K03",
+  "title_tr": "Sivas jipsinde killi dolgulu boşluk",
+  "title": "Clay-filled dissolution pocket in gypsum",
+  "place": "Sivas, Türkiye",
+  "setting": "Gypsum karst depression; dissolution zones are often filled with alluvial clay.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 8,
+   "size": 6,
+   "material": "clay",
+   "host": "gypsum"
+  },
+  "survey": {
+   "latitude": 39.75,
+   "longitude": 37.02,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://research.itu.edu.tr/en/publications/sinkhole-development-in-the-sivas-gypsum-karst-turkey/"
+  ],
+  "assumptions": [
+   "Depth and size chosen at the scale of the cover-subsidence features described; not measured values."
+  ],
+  "question": "Survey planning, Sivas, Türkiye. Gypsum karst depression; dissolution zones are often filled with alluvial clay. The target (clay-filled dissolution pocket in gypsum) has its top about 8 m below the surface and is about 6 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 0.8734,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.078,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.0953,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.048,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0237,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.047,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "K04",
+  "title_tr": "Karapınar'da 40 m derinde örtülü boşluk",
+  "title": "Covered cavity at 40 m below the Konya plain",
+  "place": "Karapınar, Konya, Türkiye",
+  "setting": "Sinkhole (obruk) field; resistivity anomalies interpreted as covered cavities from about 40 m depth.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 40,
+   "size": 15,
+   "material": "air",
+   "host": "limestone"
+  },
+  "survey": {
+   "latitude": 37.72,
+   "longitude": 33.55,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://gcris.ktun.edu.tr/entities/publication/caf53b64-5874-49a0-bf02-812361462be3",
+   "https://gcris.ktun.edu.tr/bitstream/20.500.13091/5679/1/B%c4%b0L%c4%b0MSEL-K%c4%b0TAP1.pdf"
+  ],
+  "assumptions": [
+   "Cavity diameter (15 m) assumed; the 40 m depth is the reported top of the resistivity anomalies."
+  ],
+  "question": "Survey planning, Karapınar, Konya, Türkiye. Sinkhole (obruk) field; resistivity anomalies interpreted as covered cavities from about 40 m depth. The target (covered cavity at 40 m below the konya plain) has its top about 40 m below the surface and is about 15 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 13.33,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 1.192,
+     "verdict": "not detectable",
+     "station_spacing": 10.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.0274,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.014,
+     "verdict": "not detectable",
+     "station_spacing": 5.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0017,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.003,
+     "verdict": "not detectable",
+     "station_spacing": 5.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "K05",
+  "title_tr": "Karapınar'da oluşmakta olan obruk altı boşluk",
+  "title": "Void below a forming sinkhole",
+  "place": "Karapınar, Konya, Türkiye",
+  "setting": "Forming sinkhole with 8-10 m deep fissures; nearby sinkholes up to 10 m across and 8 m deep.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 10,
+   "size": 10,
+   "material": "air",
+   "host": "limestone"
+  },
+  "survey": {
+   "latitude": 37.72,
+   "longitude": 33.55,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://gcris.ktun.edu.tr/bitstream/20.500.13091/5679/1/B%c4%b0L%c4%b0MSEL-K%c4%b0TAP1.pdf"
+  ],
+  "assumptions": [
+   "Void taken below the fissure depth, at the reported sinkhole size."
+  ],
+  "question": "Survey planning, Karapınar, Konya, Türkiye. Forming sinkhole with 8-10 m deep fissures; nearby sinkholes up to 10 m across and 8 m deep. The target (void below a forming sinkhole) has its top about 10 m below the surface and is about 10 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 39.6061,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 3.542,
+     "verdict": "marginal",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.2411,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.121,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0454,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.089,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "K06",
+  "title_tr": "Çumra'da çökme çanağı altında gevşemiş zemin",
+  "title": "Loosened soil below a sagging depression",
+  "place": "Çumra, Konya, Türkiye",
+  "setting": "Sagging depressions a few metres deep and about 30 m across on the Konya plain.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 2,
+   "depth_bottom": 6,
+   "size": 30,
+   "length": 30,
+   "material": "soil",
+   "host": "clay"
+  },
+  "survey": {
+   "latitude": 37.57,
+   "longitude": 32.77,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://gcris.ktun.edu.tr/bitstream/20.500.13091/5680/1/B%c4%b0L%c4%b0MSEL-K%c4%b0TAP2.pdf"
+  ],
+  "assumptions": [
+   "Loosened zone modelled as soil (table value) within clay; thickness 4 m assumed."
+  ],
+  "question": "Survey planning, Çumra, Konya, Türkiye. Sagging depressions a few metres deep and about 30 m across on the Konya plain. The target (loosened soil below a sagging depression) has its top about 2 m below the surface and is about 30 m by 30 m in plan, down to 6 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 37.3714,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 3.343,
+     "verdict": "marginal",
+     "station_spacing": 5.0
+    },
+    "magnetic": {
+     "available": false,
+     "reason": "no susceptibility for 'soil'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    },
+    "gradient": {
+     "available": false,
+     "reason": "no susceptibility for 'soil'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "K07",
+  "title_tr": "Trieste karstında kireçtaşı mağarası",
+  "title": "Limestone cave in classical karst",
+  "place": "Trieste Karst, Italy",
+  "setting": "Microgravity search for caves in karst limestone.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 10,
+   "size": 5,
+   "material": "air",
+   "host": "limestone"
+  },
+  "survey": {
+   "latitude": 45.65,
+   "longitude": 13.78,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://ricerca.ogs.it/retrieve/249d9cac-b09d-4313-b85d-56a4b5011db4/204-207.pdf"
+  ],
+  "assumptions": [
+   "Cave size and depth assumed at a typical scale for the study area."
+  ],
+  "question": "Survey planning, Trieste Karst, Italy. Microgravity search for caves in karst limestone. The target (limestone cave in classical karst) has its top about 10 m below the surface and is about 5 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 7.1291,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.638,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.0573,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.029,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0127,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.025,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "K08",
+  "title_tr": "Muan'da birbirine bağlı karst boşlukları",
+  "title": "Connected cavity network in karst limestone",
+  "place": "Muan, South Korea",
+  "setting": "Cavities dissolved, enlarged and connected; surveyed on a 5 m grid and drilled.",
+  "target": {
+   "shape": "horizontal_cylinder",
+   "depth_top": 8,
+   "size": 3,
+   "material": "air",
+   "host": "limestone"
+  },
+  "survey": {
+   "latitude": 34.99,
+   "longitude": 126.48,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://koreascience.kr/article/JAKO200722034015598.pub"
+  ],
+  "assumptions": [
+   "Network modelled as one cylindrical passage 3 m across at 8 m; not reported values."
+  ],
+  "question": "Survey planning, Muan, South Korea. Cavities dissolved, enlarged and connected; surveyed on a 5 m grid and drilled. The target (connected cavity network in karst limestone) has its top about 8 m below the surface and is about 3 m in diameter. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 25.3271,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 2.265,
+     "verdict": "marginal",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.1235,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.062,
+     "verdict": "not detectable",
+     "station_spacing": 5.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0253,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.05,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "K09",
+  "title_tr": "Temel sahasında sedimanla dolu boşluk",
+  "title": "Sediment-filled cavity below a foundation site",
+  "place": "Peninsular Malaysia",
+  "setting": "Microgravity and boreholes on limestone bedrock; modelled cavity about 7 m thick and 15 m wide.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 5,
+   "depth_bottom": 12,
+   "size": 15,
+   "length": 15,
+   "material": "clay",
+   "host": "limestone"
+  },
+  "survey": {
+   "latitude": 3.14,
+   "longitude": 101.69,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://ukm.my/jsm/pdf_files/SM-PDF-54-6-2025/3.pdf"
+  ],
+  "assumptions": [
+   "Depth to top (5 m) assumed; fill taken as clay."
+  ],
+  "question": "Survey planning, Peninsular Malaysia. Microgravity and boreholes on limestone bedrock; modelled cavity about 7 m thick and 15 m wide. The target (sediment-filled cavity below a foundation site) has its top about 5 m below the surface and is about 15 m by 15 m in plan, down to 12 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 30.2959,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 2.71,
+     "verdict": "marginal",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.2953,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.148,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0542,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.106,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "K10",
+  "title_tr": "Sorbas jipsinde mağara galerisi",
+  "title": "Cave passage in gypsum",
+  "place": "Sorbas, Almería, Spain",
+  "setting": "Gypsum caves; microgravity struggles because the cave-gypsum density contrast is low.",
+  "target": {
+   "shape": "horizontal_cylinder",
+   "depth_top": 6,
+   "size": 3,
+   "material": "air",
+   "host": "gypsum"
+  },
+  "survey": {
+   "latitude": 37.09,
+   "longitude": -2.12,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://doi.org/10.1016/j.enggeo.2015.04.011"
+  ],
+  "assumptions": [
+   "Passage size and depth assumed at typical values for the cave system."
+  ],
+  "question": "Survey planning, Sorbas, Almería, Spain. Gypsum caves; microgravity struggles because the cave-gypsum density contrast is low. The target (cave passage in gypsum) has its top about 6 m below the surface and is about 3 m in diameter. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 29.5648,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 2.644,
+     "verdict": "marginal",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.0056,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.003,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0014,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.003,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "K11",
+  "title_tr": "Sivas'ta dolgulu çökme dolini",
+  "title": "Infilled collapse doline in gypsum",
+  "place": "Sivas, Türkiye",
+  "setting": "Collapse dolines 50-220 m across in Miocene gypsum SW of Sivas; old dolines are infilled.",
+  "target": {
+   "shape": "vertical_cylinder",
+   "depth_top": 2,
+   "depth_bottom": 40,
+   "size": 100,
+   "material": "clay",
+   "host": "gypsum"
+  },
+  "survey": {
+   "latitude": 39.75,
+   "longitude": 37.02,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://springerlink.bibliotecabuap.elogim.com/content/pdf/10.1007/s002540050125.pdf"
+  ],
+  "assumptions": [
+   "Fill depth (40 m) and clay fill assumed; diameter within the reported range."
+  ],
+  "question": "Survey planning, Sivas, Türkiye. Collapse dolines 50-220 m across in Miocene gypsum SW of Sivas; old dolines are infilled. The target (infilled collapse doline in gypsum) has its top about 2 m below the surface and is about 100 m across, extending to 40 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 140.9558,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 12.607,
+     "verdict": "clearly detectable",
+     "station_spacing": 10.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 4.8658,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 2.433,
+     "verdict": "marginal",
+     "station_spacing": 20.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.5904,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 1.158,
+     "verdict": "not detectable",
+     "station_spacing": 20.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "M01",
+  "title_tr": "Eski demir madeni açık kuyusu",
+  "title": "Open shaft of an old iron mine",
+  "place": "New Jersey, USA",
+  "setting": "Empty vertical shaft more than 60 ft deep, about 12 x 8-10 ft; a 0.03 mGal low was recorded.",
+  "target": {
+   "shape": "vertical_cylinder",
+   "depth_top": 1,
+   "depth_bottom": 18,
+   "size": 3.2,
+   "material": "air",
+   "host": "granite"
+  },
+  "survey": {
+   "latitude": 40.9,
+   "longitude": -74.6,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.osti.gov/biblio/6237347"
+  ],
+  "assumptions": [
+   "Gneissic host approximated by granite; shaft collar 1 m below ground."
+  ],
+  "question": "Survey planning, New Jersey, USA. Empty vertical shaft more than 60 ft deep, about 12 x 8-10 ft; a 0.03 mGal low was recorded. The target (open shaft of an old iron mine) has its top about 1 m below the surface and is about 3.2 m across, extending to 18 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 90.3205,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 8.079,
+     "verdict": "clearly detectable",
+     "station_spacing": 1.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 17.4837,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 8.741,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.5
+    },
+    "gradient": {
+     "available": true,
+     "peak": 12.0285,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 23.59,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.5
+    }
+   },
+   "recommended": "gradient"
+  }
+ },
+ {
+  "id": "M02",
+  "title_tr": "Örtü altında bakır madeni kuyusu",
+  "title": "Copper-mine shaft under 3 m of sediment",
+  "place": "New Jersey, USA",
+  "setting": "Shafts under about 3 m of unconsolidated sediment; lows of 0.02-0.05 mGal, confirmed by drilling.",
+  "target": {
+   "shape": "vertical_cylinder",
+   "depth_top": 3,
+   "depth_bottom": 30,
+   "size": 3,
+   "material": "air",
+   "host": "sandstone"
+  },
+  "survey": {
+   "latitude": 40.9,
+   "longitude": -74.6,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.osti.gov/biblio/6237347"
+  ],
+  "assumptions": [
+   "Shaft depth (30 m) and diameter (3 m) assumed; host taken as sandstone."
+  ],
+  "question": "Survey planning, New Jersey, USA. Shafts under about 3 m of unconsolidated sediment; lows of 0.02-0.05 mGal, confirmed by drilling. The target (copper-mine shaft under 3 m of sediment) has its top about 3 m below the surface and is about 3 m across, extending to 30 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 31.2032,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 2.791,
+     "verdict": "marginal",
+     "station_spacing": 1.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.6985,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.349,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.3222,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.632,
+     "verdict": "not detectable",
+     "station_spacing": 0.5
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "M03",
+  "title_tr": "Kısmen dolu kömür madeni kuyusu",
+  "title": "Partially filled coal-mine shaft",
+  "place": "Shrewsbury, UK",
+  "setting": "Microgravity proved best for locating a partially filled coal-mine shaft.",
+  "target": {
+   "shape": "vertical_cylinder",
+   "depth_top": 4,
+   "depth_bottom": 40,
+   "size": 3,
+   "material": "gravel",
+   "host": "sandstone"
+  },
+  "survey": {
+   "latitude": 52.71,
+   "longitude": -2.75,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://eprints.keele.ac.uk/154/"
+  ],
+  "assumptions": [
+   "Loose fill modelled as gravel; dimensions assumed."
+  ],
+  "question": "Survey planning, Shrewsbury, UK. Microgravity proved best for locating a partially filled coal-mine shaft. The target (partially filled coal-mine shaft) has its top about 4 m below the surface and is about 3 m across, extending to 40 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 3.5797,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.32,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": false,
+     "reason": "no susceptibility for 'gravel'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    },
+    "gradient": {
+     "available": false,
+     "reason": "no susceptibility for 'gravel'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "M04",
+  "title_tr": "Kapatılıp gömülmüş maden kuyusu",
+  "title": "Capped and buried mine shaft",
+  "place": "New Jersey, USA",
+  "setting": "Old shafts are often capped and buried under later fill; same shaft as M01 with its top at 8 m.",
+  "target": {
+   "shape": "vertical_cylinder",
+   "depth_top": 8,
+   "depth_bottom": 30,
+   "size": 3.2,
+   "material": "air",
+   "host": "granite"
+  },
+  "survey": {
+   "latitude": 40.9,
+   "longitude": -74.6,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.osti.gov/biblio/6237347",
+   "https://www.fhwa.dot.gov/engineering/Geotech/hazards/mine/workshops/ktwkshp/ky0316.pdf"
+  ],
+  "assumptions": [
+   "Burial depth (8 m) assumed."
+  ],
+  "question": "Survey planning, New Jersey, USA. Old shafts are often capped and buried under later fill; same shaft as M01 with its top at 8 m. The target (capped and buried mine shaft) has its top about 8 m below the surface and is about 3.2 m across, extending to 30 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 12.8197,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 1.147,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.871,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.435,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.2014,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.395,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "M05",
+  "title_tr": "Terk edilmiş maden galerisi",
+  "title": "Abandoned mine gallery",
+  "place": "Gangwon, South Korea",
+  "setting": "Microgravity lines 80 m long, station spacing 1-5 m, over abandoned workings.",
+  "target": {
+   "shape": "horizontal_cylinder",
+   "depth_top": 10,
+   "size": 2.5,
+   "material": "air",
+   "host": "granite"
+  },
+  "survey": {
+   "latitude": 37.2,
+   "longitude": 128.9,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://ui.adsabs.harvard.edu/abs/2010AGUFMNS23A1439R"
+  ],
+  "assumptions": [
+   "Gallery size, depth and host assumed."
+  ],
+  "question": "Survey planning, Gangwon, South Korea. Microgravity lines 80 m long, station spacing 1-5 m, over abandoned workings. The target (abandoned mine gallery) has its top about 10 m below the surface and is about 2.5 m in diameter. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 15.3765,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 1.375,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.5431,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.272,
+     "verdict": "not detectable",
+     "station_spacing": 5.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0946,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.185,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "M06",
+  "title_tr": "Derin kömür galerisi",
+  "title": "Deep coal gallery",
+  "place": "Upper Silesia, Poland",
+  "setting": "Anthropogenic voids from old coal workings.",
+  "target": {
+   "shape": "horizontal_cylinder",
+   "depth_top": 25,
+   "size": 3,
+   "material": "air",
+   "host": "shale"
+  },
+  "survey": {
+   "latitude": 50.3,
+   "longitude": 19.0,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://repo.agh.edu.pl/items/5f7b9158-a4e0-44e8-8ec9-b0dc0a9c2261/full"
+  ],
+  "assumptions": [
+   "Gallery size and depth assumed."
+  ],
+  "question": "Survey planning, Upper Silesia, Poland. Anthropogenic voids from old coal workings. The target (deep coal gallery) has its top about 25 m below the surface and is about 3 m in diameter. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 8.5454,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.764,
+     "verdict": "not detectable",
+     "station_spacing": 10.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.0413,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.021,
+     "verdict": "not detectable",
+     "station_spacing": 5.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0031,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.006,
+     "verdict": "not detectable",
+     "station_spacing": 5.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "T01",
+  "title_tr": "Bilinen test tüneli (3 m x 2 m)",
+  "title": "Known test tunnel, 3 m wide and 2 m high",
+  "place": "Attica, Greece",
+  "setting": "Tunnel 2 m high and 3 m wide, top 2-2.5 m deep, known from a surface hatch.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 2.25,
+   "depth_bottom": 4.25,
+   "size": 3,
+   "length": 40,
+   "material": "air",
+   "host": "limestone"
+  },
+  "survey": {
+   "latitude": 37.98,
+   "longitude": 23.73,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.balkangeophysoc.gr/online-journal/2012_V15/No_1_March/JBGS_Vol_15_No1_March_2012_p07-18_Orfanos.pdf"
+  ],
+  "assumptions": [
+   "Host rock taken as limestone; tunnel length across the profile 40 m."
+  ],
+  "question": "Survey planning, Attica, Greece. Tunnel 2 m high and 3 m wide, top 2-2.5 m deep, known from a surface hatch. The target (known test tunnel, 3 m wide and 2 m high) has its top about 2.25 m below the surface and is about 3 m by 40 m in plan, down to 4.25 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 59.4532,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 5.318,
+     "verdict": "clearly detectable",
+     "station_spacing": 1.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.6946,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.347,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.3144,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.617,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "T02",
+  "title_tr": "12 m derinde 2 m genişlikte tünel",
+  "title": "Air-filled tunnel, 2 m wide, about 12 m deep",
+  "place": "Cambridgeshire, UK",
+  "setting": "Field trial over a known tunnel; expected anomaly 14 µGal.",
+  "target": {
+   "shape": "horizontal_cylinder",
+   "depth_top": 11,
+   "size": 2,
+   "material": "air",
+   "host": "sandstone"
+  },
+  "survey": {
+   "latitude": 52.2,
+   "longitude": 0.12,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://smggravity.com/posts/detecting-subsurface-tunnels-using-gravity"
+  ],
+  "assumptions": [
+   "Vendor case study; host rock assumed; tunnel centre at 12 m."
+  ],
+  "question": "Survey planning, Cambridgeshire, UK. Field trial over a known tunnel; expected anomaly 14 µGal. The target (air-filled tunnel, 2 m wide, about 12 m deep) has its top about 11 m below the surface and is about 2 m in diameter. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 8.2124,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.735,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.0567,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.028,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0089,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.017,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "T03",
+  "title_tr": "Liverpool'da tarihî tünel",
+  "title": "Historic tunnel in sandstone",
+  "place": "Liverpool, UK",
+  "setting": "150-year-old tunnel system mapped with microgravity after a desk study.",
+  "target": {
+   "shape": "horizontal_cylinder",
+   "depth_top": 4,
+   "size": 3.5,
+   "material": "air",
+   "host": "sandstone"
+  },
+  "survey": {
+   "latitude": 53.4,
+   "longitude": -2.96,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://keele.academia.edu/PStyles"
+  ],
+  "assumptions": [
+   "Tunnel size and depth assumed."
+  ],
+  "question": "Survey planning, Liverpool, UK. 150-year-old tunnel system mapped with microgravity after a desk study. The target (historic tunnel in sandstone) has its top about 4 m below the surface and is about 3.5 m in diameter. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 52.4882,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 4.695,
+     "verdict": "marginal",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.703,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.351,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.2124,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.417,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "T04",
+  "title_tr": "Alüvyonda kanat tipi su tüneli",
+  "title": "Qanat-type water tunnel in alluvium",
+  "place": "Tehran, Iran",
+  "setting": "Microgravity profiles over water tunnels in alluvial gravel.",
+  "target": {
+   "shape": "horizontal_cylinder",
+   "depth_top": 8,
+   "size": 1.5,
+   "material": "air",
+   "host": "gravel"
+  },
+  "survey": {
+   "latitude": 35.69,
+   "longitude": 51.39,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.earthdoc.org/content/papers/10.3997/2352-8265.20140049"
+  ],
+  "assumptions": [
+   "Tunnel size and depth assumed."
+  ],
+  "question": "Survey planning, Tehran, Iran. Microgravity profiles over water tunnels in alluvial gravel. The target (qanat-type water tunnel in alluvium) has its top about 8 m below the surface and is about 1.5 m in diameter. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 5.3918,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.482,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": false,
+     "reason": "no susceptibility for 'gravel'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    },
+    "gradient": {
+     "available": false,
+     "reason": "no susceptibility for 'gravel'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "T05",
+  "title_tr": "Sert kilde kaplamalı tünel",
+  "title": "Lined tunnel in stiff clay",
+  "place": "London, UK",
+  "setting": "Gravity modelling of a lined tunnel in stiff clay; ignoring the lining gave a 20 % depth error.",
+  "target": {
+   "shape": "horizontal_cylinder",
+   "depth_top": 15,
+   "size": 6,
+   "material": "air",
+   "host": "clay"
+  },
+  "survey": {
+   "latitude": 51.5,
+   "longitude": -0.12,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.earthdoc.org/content/journals/10.3997/1873-0604.2013032"
+  ],
+  "assumptions": [
+   "Lining not modelled; size and depth assumed."
+  ],
+  "question": "Survey planning, London, UK. Gravity modelling of a lined tunnel in stiff clay; ignoring the lining gave a 20 % depth error. The target (lined tunnel in stiff clay) has its top about 15 m below the surface and is about 6 m in diameter. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 46.3391,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 4.145,
+     "verdict": "marginal",
+     "station_spacing": 5.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.1153,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.058,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0124,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.024,
+     "verdict": "not detectable",
+     "station_spacing": 5.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "A01",
+  "title_tr": "Tümülüs içindeki mezar odası",
+  "title": "Burial chamber inside a mound",
+  "place": "Newgrange, Ireland",
+  "setting": "Passage tomb; main chamber about 6 m across and 6 m high within the mound.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 6,
+   "size": 6,
+   "material": "air",
+   "host": "soil"
+  },
+  "survey": {
+   "latitude": 53.69,
+   "longitude": -6.48,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://eprints.dkit.ie/300/"
+  ],
+  "assumptions": [
+   "Mound fill taken as soil; chamber depth below the station assumed."
+  ],
+  "question": "Survey planning, Newgrange, Ireland. Passage tomb; main chamber about 6 m across and 6 m high within the mound. The target (burial chamber inside a mound) has its top about 6 m below the surface and is about 6 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 17.8926,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 1.6,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": false,
+     "reason": "no susceptibility for 'soil'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    },
+    "gradient": {
+     "available": false,
+     "reason": "no susceptibility for 'soil'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "A02",
+  "title_tr": "Kilise altında kripta",
+  "title": "Crypt below a church floor",
+  "place": "Pukanec, Slovakia",
+  "setting": "Microgravity inside a church to locate crypts and cellars.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 1,
+   "depth_bottom": 3.5,
+   "size": 4,
+   "length": 6,
+   "material": "air",
+   "host": "clay"
+  },
+  "survey": {
+   "latitude": 48.35,
+   "longitude": 18.73,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://journal.geo.sav.sk/cgg/article/view/20"
+  ],
+  "assumptions": [
+   "Crypt size and host assumed."
+  ],
+  "question": "Survey planning, Pukanec, Slovakia. Microgravity inside a church to locate crypts and cellars. The target (crypt below a church floor) has its top about 1 m below the surface and is about 4 m by 6 m in plan, down to 3.5 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 88.0984,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 7.88,
+     "verdict": "clearly detectable",
+     "station_spacing": 1.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 1.5219,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.761,
+     "verdict": "not detectable",
+     "station_spacing": 0.5
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.8123,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 1.593,
+     "verdict": "not detectable",
+     "station_spacing": 0.5
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "A03",
+  "title_tr": "Tabut nişleri",
+  "title": "Coffin niches",
+  "place": "Pukanec, Slovakia",
+  "setting": "Coffin niches proved too small for reliable microgravity detection.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 0.5,
+   "depth_bottom": 1.3,
+   "size": 0.8,
+   "length": 2,
+   "material": "air",
+   "host": "clay"
+  },
+  "survey": {
+   "latitude": 48.35,
+   "longitude": 18.73,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://doaj.org/article/3ceea7651a2e42508cae8e3fad3ad2f5"
+  ],
+  "assumptions": [
+   "Niche size assumed."
+  ],
+  "question": "Survey planning, Pukanec, Slovakia. Coffin niches proved too small for reliable microgravity detection. The target (coffin niches) has its top about 0.5 m below the surface and is about 0.8 m by 2 m in plan, down to 1.3 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 15.6854,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 1.403,
+     "verdict": "not detectable",
+     "station_spacing": 0.2
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.4423,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.221,
+     "verdict": "not detectable",
+     "station_spacing": 0.2
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.6124,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 1.201,
+     "verdict": "not detectable",
+     "station_spacing": 0.2
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "A04",
+  "title_tr": "Kireçtaşında oyma mezar odası",
+  "title": "Rock-cut burial chamber in limestone",
+  "place": "Saqqara, Egypt",
+  "setting": "Microgravity over an animal cemetery; residual low interpreted as a void.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 6,
+   "depth_bottom": 9,
+   "size": 5,
+   "length": 5,
+   "material": "air",
+   "host": "limestone"
+  },
+  "survey": {
+   "latitude": 29.87,
+   "longitude": 31.22,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://nriag.journals.ekb.eg/article_452862.html"
+  ],
+  "assumptions": [
+   "Chamber size and depth assumed."
+  ],
+  "question": "Survey planning, Saqqara, Egypt. Microgravity over an animal cemetery; residual low interpreted as a void. The target (rock-cut burial chamber in limestone) has its top about 6 m below the surface and is about 5 m by 5 m in plan, down to 9 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 21.1204,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 1.889,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.1673,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.084,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0553,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.108,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "A05",
+  "title_tr": "Manastır avlusu altında boş sarnıç",
+  "title": "Empty cistern below a cloister",
+  "place": "Valencia region, Spain",
+  "setting": "Rainwater cistern: ceiling about 1 m and floor about 4 m below the pavement, capacity 288 m³.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 1,
+   "depth_bottom": 4,
+   "size": 9.6,
+   "length": 10,
+   "material": "air",
+   "host": "clay"
+  },
+  "survey": {
+   "latitude": 39.85,
+   "longitude": -0.48,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.riarte.es/handle/20.500.12251/5608"
+  ],
+  "assumptions": [
+   "Plan dimensions from the volume; host taken as clay."
+  ],
+  "question": "Survey planning, Valencia region, Spain. Rainwater cistern: ceiling about 1 m and floor about 4 m below the pavement, capacity 288 m³. The target (empty cistern below a cloister) has its top about 1 m below the surface and is about 9.6 m by 10 m in plan, down to 4 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 165.1081,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 14.768,
+     "verdict": "clearly detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 1.7262,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.863,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.6755,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 1.325,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "A06",
+  "title_tr": "Aynı sarnıç, su dolu",
+  "title": "Same cistern, water-filled",
+  "place": "Valencia region, Spain",
+  "setting": "As A05 but full of water.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 1,
+   "depth_bottom": 4,
+   "size": 9.6,
+   "length": 10,
+   "material": "water",
+   "host": "clay"
+  },
+  "survey": {
+   "latitude": 39.85,
+   "longitude": -0.48,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.riarte.es/handle/20.500.12251/5608"
+  ],
+  "assumptions": [
+   "As A05."
+  ],
+  "question": "Survey planning, Valencia region, Spain. As A05 but full of water. The target (same cistern, water-filled) has its top about 1 m below the surface and is about 9.6 m by 10 m in plan, down to 4 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 90.3985,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 8.085,
+     "verdict": "clearly detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 1.7262,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.863,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.6755,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 1.325,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "A07",
+  "title_tr": "Tüfte yeraltı yerleşimi odası",
+  "title": "Underground-settlement room in tuff",
+  "place": "Nevşehir, Türkiye",
+  "setting": "Resistivity anomalies at 8-20 m interpreted as a systematic void structure around Nevşehir Castle.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 10,
+   "depth_bottom": 13,
+   "size": 5,
+   "length": 5,
+   "material": "air",
+   "host": "soil",
+   "density_contrast": -1700
+  },
+  "survey": {
+   "latitude": 38.62,
+   "longitude": 34.71,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://avesis.comu.edu.tr/yayin/c4208c7f-16bb-4ea5-837b-f9eecffa626e/preliminary-investigation-of-underground-settlements-of-nevsehir-castle-region-using-2-5-d-electrical-resistivity-tomography-cappadocia-turkey"
+  ],
+  "assumptions": [
+   "Tuff density about 1.7 g/cm³ assumed (density_contrast -1700); room size assumed."
+  ],
+  "question": "Survey planning, Nevşehir, Türkiye. Resistivity anomalies at 8-20 m interpreted as a systematic void structure around Nevşehir Castle. The target (underground-settlement room in tuff) has its top about 10 m below the surface and is about 5 m by 5 m in plan, down to 13 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 6.2417,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.558,
+     "verdict": "not detectable",
+     "station_spacing": 2.0
+    },
+    "magnetic": {
+     "available": false,
+     "reason": "no susceptibility for 'soil'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    },
+    "gradient": {
+     "available": false,
+     "reason": "no susceptibility for 'soil'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "G01",
+  "title_tr": "Örtü altında bazalt daykı",
+  "title": "Weathered basalt dyke under cover",
+  "place": "Heldburg, Germany",
+  "setting": "Ground magnetic profiles across a buried basalt dyke; strike, width and burial depth delineated.",
+  "target": {
+   "shape": "dyke",
+   "depth_top": 1,
+   "depth_bottom": 200,
+   "size": 5,
+   "material": "basalt",
+   "host": "sandstone"
+  },
+  "survey": {
+   "latitude": 50.28,
+   "longitude": 10.73,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.frontiersin.org/articles/10.3389/feart.2020.592986/full"
+  ],
+  "assumptions": [
+   "Dyke width (5 m) assumed."
+  ],
+  "question": "Survey planning, Heldburg, Germany. Ground magnetic profiles across a buried basalt dyke; strike, width and burial depth delineated. The target (weathered basalt dyke under cover) has its top about 1 m below the surface and is about 5 m wide, extending to 200 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 206.3897,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 18.46,
+     "verdict": "clearly detectable",
+     "station_spacing": 5.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 987.8735,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 493.907,
+     "verdict": "clearly detectable",
+     "station_spacing": 1.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 306.7534,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 601.593,
+     "verdict": "clearly detectable",
+     "station_spacing": 1.0
+    }
+   },
+   "recommended": "gradient"
+  }
+ },
+ {
+  "id": "G02",
+  "title_tr": "Tebeşir içinde bazalt daykı",
+  "title": "Basalt dyke cutting chalk",
+  "place": "County Antrim, UK",
+  "setting": "Dykes associated with the Antrim basalts generally give anomalies below 500 nT.",
+  "target": {
+   "shape": "dyke",
+   "depth_top": 2,
+   "depth_bottom": 200,
+   "size": 3,
+   "material": "basalt",
+   "host": "limestone"
+  },
+  "survey": {
+   "latitude": 54.85,
+   "longitude": -6.25,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://mural.maynoothuniversity.ie/8855/1/PG_tertiary%20basalts%201993.pdf"
+  ],
+  "assumptions": [
+   "Chalk taken as limestone."
+  ],
+  "question": "Survey planning, County Antrim, UK. Dykes associated with the Antrim basalts generally give anomalies below 500 nT. The target (basalt dyke cutting chalk) has its top about 2 m below the surface and is about 3 m wide, extending to 200 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 79.7142,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 7.13,
+     "verdict": "clearly detectable",
+     "station_spacing": 5.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 521.6511,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 260.81,
+     "verdict": "clearly detectable",
+     "station_spacing": 1.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 159.0507,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 311.924,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.5
+    }
+   },
+   "recommended": "gradient"
+  }
+ },
+ {
+  "id": "G03",
+  "title_tr": "Bazalt lavları içinde bazalt daykı",
+  "title": "Basalt dyke within basalt lavas",
+  "place": "County Antrim, UK",
+  "setting": "A dyke of normal width (2-3 m) is not normally detected by profiling across the basalts.",
+  "target": {
+   "shape": "dyke",
+   "depth_top": 1,
+   "depth_bottom": 200,
+   "size": 2.5,
+   "material": "basalt",
+   "host": "basalt"
+  },
+  "survey": {
+   "latitude": 54.85,
+   "longitude": -6.25,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://mural.maynoothuniversity.ie/8855/1/PG_tertiary%20basalts%201993.pdf"
+  ],
+  "assumptions": [
+   "Same table properties for dyke and host: no contrast in the model."
+  ],
+  "question": "Survey planning, County Antrim, UK. A dyke of normal width (2-3 m) is not normally detected by profiling across the basalts. The target (basalt dyke within basalt lavas) has its top about 1 m below the surface and is about 2.5 m wide, extending to 200 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 0.0,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.0,
+     "verdict": "not detectable",
+     "station_spacing": 0.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.0,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.0,
+     "verdict": "not detectable",
+     "station_spacing": 0.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.0,
+     "verdict": "not detectable",
+     "station_spacing": 0.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "G04",
+  "title_tr": "Kimberlit borusu",
+  "title": "Kimberlite pipe",
+  "place": "Borborema Province, Brazil",
+  "setting": "Pipe about 200 m across resolved by ground gravity; magnetically distinct from its host.",
+  "target": {
+   "shape": "vertical_cylinder",
+   "depth_top": 20,
+   "depth_bottom": 600,
+   "size": 200,
+   "material": "peridotite",
+   "host": "granite"
+  },
+  "survey": {
+   "latitude": -6.5,
+   "longitude": -36.5,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://rigeo.sgb.gov.br/bitstream/doc/16586/1/NT_2-Kimberlite_Borborema.pdf"
+  ],
+  "assumptions": [
+   "Kimberlite approximated by peridotite (no density in the tables, so gravity is not assessed); host granite."
+  ],
+  "question": "Survey planning, Borborema Province, Brazil. Pipe about 200 m across resolved by ground gravity; magnetically distinct from its host. The target (kimberlite pipe) has its top about 20 m below the surface and is about 200 m across, extending to 600 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": false,
+     "reason": "no density for 'peridotite'; known: air, basalt, clay, dolomite, gabbro, granite, gravel, gypsum, limestone, marble, rock salt, sand, sandstone, shale, soil, water (give the contrast directly)"
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 888.0404,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 443.993,
+     "verdict": "clearly detectable",
+     "station_spacing": 50.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 25.7283,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 50.457,
+     "verdict": "clearly detectable",
+     "station_spacing": 20.0
+    }
+   },
+   "recommended": "magnetic"
+  }
+ },
+ {
+  "id": "G05",
+  "title_tr": "Ofiyolitte podiform kromit merceği",
+  "title": "Podiform chromite pod in ophiolite",
+  "place": "Osmaniye, Türkiye",
+  "setting": "Microgravity chromite exploration on the Fenk plateau (CG-5).",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 15,
+   "size": 10,
+   "material": "peridotite",
+   "host": "peridotite",
+   "density_contrast": 1500
+  },
+  "survey": {
+   "latitude": 37.15,
+   "longitude": 36.35,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://opac.geologie.ac.at/ais312/dokumente/EGU/EGU2015-9329.pdf",
+   "https://pubs.usgs.gov/of/1981/0964/report.pdf"
+  ],
+  "assumptions": [
+   "Density contrast +1500 kg/m³ assumed (chromite about 4.3 vs serpentinised peridotite about 2.8); no magnetic contrast."
+  ],
+  "question": "Survey planning, Osmaniye, Türkiye. Microgravity chromite exploration on the Fenk plateau (CG-5). The target (podiform chromite pod in ophiolite) has its top about 15 m below the surface and is about 10 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 13.105,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 1.172,
+     "verdict": "not detectable",
+     "station_spacing": 5.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.0,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.0,
+     "verdict": "not detectable",
+     "station_spacing": 0.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.0,
+     "verdict": "not detectable",
+     "station_spacing": 0.0
+    }
+   },
+   "recommended": null
+  }
+ },
+ {
+  "id": "G07",
+  "title_tr": "Serpantinit içinde manyetit cevheri",
+  "title": "Magnetite ore body in serpentinite",
+  "place": "Divriği, Sivas, Türkiye",
+  "setting": "Magnetite-bearing ore within serpentinite; distinct gravity and magnetic anomalies over the Dumluca field.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 30,
+   "depth_bottom": 150,
+   "size": 60,
+   "length": 100,
+   "material": "peridotite",
+   "host": "peridotite",
+   "density_contrast": 1500,
+   "susceptibility_contrast": 1.0
+  },
+  "survey": {
+   "latitude": 39.37,
+   "longitude": 38.11,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://tezara.org/theses/83188",
+   "https://journals.tubitak.gov.tr/earth/vol30/iss1/5"
+  ],
+  "assumptions": [
+   "Ore geometry, density contrast (+1500 kg/m³) and susceptibility contrast (1.0 SI) assumed."
+  ],
+  "question": "Survey planning, Divriği, Sivas, Türkiye. Magnetite-bearing ore within serpentinite; distinct gravity and magnetic anomalies over the Dumluca field. The target (magnetite ore body in serpentinite) has its top about 30 m below the surface and is about 60 m by 100 m in plan, down to 150 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 1019.8256,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 91.216,
+     "verdict": "clearly detectable",
+     "station_spacing": 20.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 7378.3611,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 3688.957,
+     "verdict": "clearly detectable",
+     "station_spacing": 10.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 251.0048,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 492.261,
+     "verdict": "clearly detectable",
+     "station_spacing": 10.0
+    }
+   },
+   "recommended": "magnetic"
+  }
+ },
+ {
+  "id": "G08",
+  "title_tr": "Denizli havzasını sınırlayan fay",
+  "title": "Basin-bounding fault, sediment against marble",
+  "place": "Denizli, Türkiye",
+  "setting": "Gravity lineaments interpreted as buried faults at the basin edge.",
+  "target": {
+   "shape": "contact",
+   "depth_top": 50,
+   "depth_bottom": 600,
+   "material": "clay",
+   "host": "marble"
+  },
+  "survey": {
+   "latitude": 37.78,
+   "longitude": 29.09,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.bohrium.com/paper-details/structural-interpretation-of-sw-part-of-denizli-turkey-based-on-gravity-data-analysis/812649468271788033-347"
+  ],
+  "assumptions": [
+   "Sediment taken as clay, basement as marble; depths assumed."
+  ],
+  "question": "Survey planning, Denizli, Türkiye. Gravity lineaments interpreted as buried faults at the basin edge. The target (basin-bounding fault, sediment against marble) has its top about 50 m below the surface and is with the offset unit extending from 50 m to 600 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 11919.4866,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 1066.111,
+     "verdict": "clearly detectable",
+     "station_spacing": 100.0
+    },
+    "magnetic": {
+     "available": false,
+     "reason": "no susceptibility for 'marble'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    },
+    "gradient": {
+     "available": false,
+     "reason": "no susceptibility for 'marble'; known: air, andesite, basalt, clay, diorite, dolomite, gabbro, granite, gypsum, limestone, magnetite, peridotite, rock salt, sandstone, schist, shale, slate, water (give the contrast directly)"
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "G09",
+  "title_tr": "Alüvyon altında küçük atımlı fay",
+  "title": "Small-throw buried fault under alluvium",
+  "place": "Eskişehir, Türkiye",
+  "setting": "Microgravity profiling delineated faults in a buried bedrock valley.",
+  "target": {
+   "shape": "contact",
+   "depth_top": 20,
+   "depth_bottom": 40,
+   "material": "clay",
+   "host": "limestone"
+  },
+  "survey": {
+   "latitude": 39.78,
+   "longitude": 30.52,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://agris.fao.org/search/en/records/65dee3277c7033e84bec36ea"
+  ],
+  "assumptions": [
+   "Throw (20 m) and depths assumed."
+  ],
+  "question": "Survey planning, Eskişehir, Türkiye. Microgravity profiling delineated faults in a buried bedrock valley. The target (small-throw buried fault under alluvium) has its top about 20 m below the surface and is with the offset unit extending from 20 m to 40 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 268.1994,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 23.988,
+     "verdict": "clearly detectable",
+     "station_spacing": 10.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 0.4902,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.245,
+     "verdict": "not detectable",
+     "station_spacing": 10.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0174,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.034,
+     "verdict": "not detectable",
+     "station_spacing": 5.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "G10",
+  "title_tr": "Sivas havzasında tuz diyapiri",
+  "title": "Salt diapir in the Sivas Basin",
+  "place": "Sivas, Türkiye",
+  "setting": "Salt-controlled minibasins and diapirs of the central Sivas Basin.",
+  "target": {
+   "shape": "vertical_cylinder",
+   "depth_top": 300,
+   "depth_bottom": 3000,
+   "size": 1500,
+   "material": "rock salt",
+   "host": "sandstone"
+  },
+  "survey": {
+   "latitude": 39.75,
+   "longitude": 37.02,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://avesis.cumhuriyet.edu.tr/yayin/81f38789-156c-4055-8ad2-f2d6ec007f1e/minibasins-and-salt-canopy-in-foreland-fold-and-thrust-belts-the-central-sivas-basin-turkey"
+  ],
+  "assumptions": [
+   "Diapir geometry assumed; host clastics taken as sandstone."
+  ],
+  "question": "Survey planning, Sivas, Türkiye. Salt-controlled minibasins and diapirs of the central Sivas Basin. The target (salt diapir in the sivas basin) has its top about 300 m below the surface and is about 1500 m across, extending to 3000 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 2264.8686,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 202.576,
+     "verdict": "clearly detectable",
+     "station_spacing": 200.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 5.303,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 2.651,
+     "verdict": "marginal",
+     "station_spacing": 200.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.0123,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.024,
+     "verdict": "not detectable",
+     "station_spacing": 100.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "G11",
+  "title_tr": "Gömülü ana kaya vadisi (sığ)",
+  "title": "Shallow buried bedrock valley",
+  "place": "Ottawa, Canada",
+  "setting": "Microgravity lows up to 0.05 mGal over valleys 5-15 m deep; overburden-limestone contrast about 0.3 g/cm³.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 1,
+   "depth_bottom": 15,
+   "size": 60,
+   "length": 300,
+   "material": "clay",
+   "host": "limestone",
+   "density_contrast": -300
+  },
+  "survey": {
+   "latitude": 45.38,
+   "longitude": -75.7,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://agris.fao.org/search/en/records/65dee3277c7033e84bec36ea"
+  ],
+  "assumptions": [
+   "Valley width (60 m) assumed."
+  ],
+  "question": "Survey planning, Ottawa, Canada. Microgravity lows up to 0.05 mGal over valleys 5-15 m deep; overburden-limestone contrast about 0.3 g/cm³. The target (shallow buried bedrock valley) has its top about 1 m below the surface and is about 60 m by 300 m in plan, down to 15 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 146.7806,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 13.128,
+     "verdict": "clearly detectable",
+     "station_spacing": 10.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 1.673,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 0.836,
+     "verdict": "not detectable",
+     "station_spacing": 10.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.3765,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.738,
+     "verdict": "not detectable",
+     "station_spacing": 10.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "G12",
+  "title_tr": "Gömülü vadi (geniş)",
+  "title": "Wide buried valley",
+  "place": "Kansas, USA",
+  "setting": "With 0.01 mGal sensitivity and a 0.3 g/cm³ contrast, valleys deeper than 45 ft can be identified.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 2,
+   "depth_bottom": 20,
+   "size": 300,
+   "length": 1000,
+   "material": "clay",
+   "host": "shale",
+   "density_contrast": -300
+  },
+  "survey": {
+   "latitude": 39.1,
+   "longitude": -95.5,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.kgs.ku.edu/Publications/OFR/1982/KGSOFR1982-17.pdf"
+  ],
+  "assumptions": [
+   "Valley width (300 m) assumed."
+  ],
+  "question": "Survey planning, Kansas, USA. With 0.01 mGal sensitivity and a 0.3 g/cm³ contrast, valleys deeper than 45 ft can be identified. The target (wide buried valley) has its top about 2 m below the surface and is about 300 m by 1000 m in plan, down to 20 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 215.4478,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 19.27,
+     "verdict": "clearly detectable",
+     "station_spacing": 50.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 5.8762,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 2.938,
+     "verdict": "marginal",
+     "station_spacing": 50.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.786,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 1.541,
+     "verdict": "not detectable",
+     "station_spacing": 50.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "G13",
+  "title_tr": "Kil dolgulu gömülü vadi (zayıf kontrast)",
+  "title": "Buried valley with dense till fill",
+  "place": "Illinois, USA",
+  "setting": "Small density contrast between shale bedrock and glacial fill; small but measurable low.",
+  "target": {
+   "shape": "prism",
+   "depth_top": 5,
+   "depth_bottom": 60,
+   "size": 1000,
+   "length": 5000,
+   "material": "clay",
+   "host": "shale",
+   "density_contrast": -100
+  },
+  "survey": {
+   "latitude": 40.0,
+   "longitude": -89.0,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://gsa.confex.com/gsa/2004NC/webprogram/Paper71576.html"
+  ],
+  "assumptions": [
+   "Contrast (-100 kg/m³) and geometry assumed to represent the 'small contrast' described."
+  ],
+  "question": "Survey planning, Illinois, USA. Small density contrast between shale bedrock and glacial fill; small but measurable low. The target (buried valley with dense till fill) has its top about 5 m below the surface and is about 1000 m by 5000 m in plan, down to 60 m. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 220.937,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 19.761,
+     "verdict": "clearly detectable",
+     "station_spacing": 200.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 6.379,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 3.189,
+     "verdict": "marginal",
+     "station_spacing": 200.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 0.3777,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 0.741,
+     "verdict": "not detectable",
+     "station_spacing": 200.0
+    }
+   },
+   "recommended": "gravity"
+  }
+ },
+ {
+  "id": "F01",
+  "title_tr": "1 m derinde tek çelik varil",
+  "title": "Single steel drum at 1 m",
+  "place": "Central Italy",
+  "setting": "Test site with buried steel drums; total-field anomaly about 290 nT.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 0.7,
+   "size": 0.7,
+   "material": "air",
+   "host": "soil",
+   "susceptibility_contrast": 3.0
+  },
+  "survey": {
+   "latitude": 41.9,
+   "longitude": 12.5,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://arxiv.org/pdf/1009.5555"
+  ],
+  "assumptions": [
+   "Drum as a sphere of equal volume (0.7 m) with apparent susceptibility 3 (permeable-sphere limit); remanence ignored."
+  ],
+  "question": "Survey planning, Central Italy. Test site with buried steel drums; total-field anomaly about 290 nT. The target (single steel drum at 1 m) has its top about 0.7 m below the surface and is about 0.7 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 2.0875,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.187,
+     "verdict": "not detectable",
+     "station_spacing": 0.2
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 853.0144,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 426.481,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.2
+    },
+    "gradient": {
+     "available": true,
+     "peak": 1362.7245,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 2672.523,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.2
+    }
+   },
+   "recommended": "gradient"
+  }
+ },
+ {
+  "id": "F02",
+  "title_tr": "3 m derinde tek çelik varil",
+  "title": "Single steel drum at 3 m",
+  "place": "Illinois, USA",
+  "setting": "Reported magnetic detection limit for a single drum: 6-11 ft below the surface.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 3,
+   "size": 0.7,
+   "material": "air",
+   "host": "soil",
+   "susceptibility_contrast": 3.0
+  },
+  "survey": {
+   "latitude": 40.0,
+   "longitude": -89.0,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.geometrics.com/wp-content/uploads/2018/10/M-TR34.pdf"
+  ],
+  "assumptions": [
+   "As F01."
+  ],
+  "question": "Survey planning, Illinois, USA. Reported magnetic detection limit for a single drum: 6-11 ft below the surface. The target (single steel drum at 3 m) has its top about 3 m below the surface and is about 0.7 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 0.2051,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.018,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 68.9336,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 34.465,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.5
+    },
+    "gradient": {
+     "available": true,
+     "peak": 46.5289,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 91.251,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.5
+    }
+   },
+   "recommended": "gradient"
+  }
+ },
+ {
+  "id": "F03",
+  "title_tr": "Gömülü çelik yakıt tankı",
+  "title": "Buried steel underground storage tank",
+  "place": "Illinois, USA",
+  "setting": "Profile over a single underground storage tank gave a 1000-gamma anomaly.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 1,
+   "size": 2.7,
+   "material": "air",
+   "host": "soil",
+   "susceptibility_contrast": 3.0
+  },
+  "survey": {
+   "latitude": 40.0,
+   "longitude": -89.0,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.geometrics.com/wp-content/uploads/2018/10/M-TR1.pdf"
+  ],
+  "assumptions": [
+   "10 m³ tank as a sphere of equal volume (2.7 m), apparent susceptibility 3; depth to top 1 m assumed."
+  ],
+  "question": "Survey planning, Illinois, USA. Profile over a single underground storage tank gave a 1000-gamma anomaly. The target (buried steel underground storage tank) has its top about 1 m below the surface and is about 2.7 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 23.9145,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 2.139,
+     "verdict": "marginal",
+     "station_spacing": 0.5
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 9751.1428,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 4875.276,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.5
+    },
+    "gradient": {
+     "available": true,
+     "peak": 8632.2346,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 16929.205,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.2
+    }
+   },
+   "recommended": "gradient"
+  }
+ },
+ {
+  "id": "F04",
+  "title_tr": "Çelik doğalgaz boru hattı",
+  "title": "Steel gas pipeline",
+  "place": "Northern England, UK",
+  "setting": "Stand-off magnetometry for buried pipelines.",
+  "target": {
+   "shape": "horizontal_cylinder",
+   "depth_top": 1.5,
+   "size": 0.6,
+   "material": "air",
+   "host": "soil",
+   "susceptibility_contrast": 2.0
+  },
+  "survey": {
+   "latitude": 53.8,
+   "longitude": -1.55,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://results2021.ref.ac.uk/impact/ea24f6bd-cc50-461c-9191-41803f67c5a9/pdf"
+  ],
+  "assumptions": [
+   "Pipe as a solid permeable cylinder, apparent susceptibility 2 (transverse limit); diameter and cover assumed."
+  ],
+  "question": "Survey planning, Northern England, UK. Stand-off magnetometry for buried pipelines. The target (steel gas pipeline) has its top about 1.5 m below the surface and is about 0.6 m in diameter. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 4.0258,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.36,
+     "verdict": "not detectable",
+     "station_spacing": 0.5
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 767.6143,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 383.784,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.2
+    },
+    "gradient": {
+     "available": true,
+     "peak": 576.2814,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 1130.181,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.2
+    }
+   },
+   "recommended": "gradient"
+  }
+ },
+ {
+  "id": "F05",
+  "title_tr": "1,8 m derinde 250 kg uçak bombası (drone)",
+  "title": "250 kg aerial bomb at 1.8 m, drone magnetometer",
+  "place": "Latvia",
+  "setting": "Drone survey over a WWII front-line field found a 250 kg bomb at 1.8 m.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 1.5,
+   "size": 0.68,
+   "material": "air",
+   "host": "soil",
+   "susceptibility_contrast": 3.0
+  },
+  "survey": {
+   "latitude": 56.9,
+   "longitude": 24.1,
+   "date": "2026-07-01",
+   "sensor_height": 2.0,
+   "gradiometer_height": 2.0
+  },
+  "sources": [
+   "https://www.thedroningcompany.com/blog/revolutionizing-uxo-detection-drones-and-magnetometers-take-flight",
+   "https://www.sphengineering.com/news/estimates-of-various-uxo-unexploded-ordnance-maximum-detection-distances-using-magnetometers"
+  ],
+  "assumptions": [
+   "Bomb as a sphere of equal volume (0.68 m), apparent susceptibility 3; sensor 2 m above ground."
+  ],
+  "question": "Survey planning, Latvia. Drone survey over a WWII front-line field found a 250 kg bomb at 1.8 m. The target (250 kg aerial bomb at 1.8 m, drone magnetometer) has its top about 1.5 m below the surface and is about 0.68 m across. The magnetic sensors (total-field and the lower gradiometer sensor) will be 2 m above the ground. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 0.6232,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.056,
+     "verdict": "not detectable",
+     "station_spacing": 0.5
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 66.555,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 33.275,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.5
+    },
+    "gradient": {
+     "available": true,
+     "peak": 33.4796,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 65.659,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.5
+    }
+   },
+   "recommended": "gradient"
+  }
+ },
+ {
+  "id": "F06",
+  "title_tr": "4 m derinde 250 kg bomba, sensör 4 m yukarıda",
+  "title": "250 kg bomb buried 4 m, sensor 4 m above the seabed",
+  "place": "North Sea (German sector)",
+  "setting": "Offshore wind UXO survey: 250 lb bombs, 2-4 m burial, sensor altitude 4 m.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 3.7,
+   "size": 0.68,
+   "material": "air",
+   "host": "sand",
+   "susceptibility_contrast": 3.0
+  },
+  "survey": {
+   "latitude": 54.0,
+   "longitude": 7.0,
+   "date": "2026-07-01",
+   "sensor_height": 4.0,
+   "gradiometer_height": 4.0
+  },
+  "sources": [
+   "https://www.openaccessgovernment.org/unexploded-ordnance-offshore-wind-farm/72642/"
+  ],
+  "assumptions": [
+   "As F05; seabed sediment as sand; sensor 4 m above the seabed."
+  ],
+  "question": "Survey planning, North Sea (German sector). Offshore wind UXO survey: 250 lb bombs, 2-4 m burial, sensor altitude 4 m. The target (250 kg bomb buried 4 m, sensor 4 m above the seabed) has its top about 3.7 m below the surface and is about 0.68 m across. The magnetic sensors (total-field and the lower gradiometer sensor) will be 4 m above the ground. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 0.1346,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.012,
+     "verdict": "not detectable",
+     "station_spacing": 1.0
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 6.8289,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 3.414,
+     "verdict": "marginal",
+     "station_spacing": 1.0
+    },
+    "gradient": {
+     "available": true,
+     "peak": 2.039,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 3.999,
+     "verdict": "marginal",
+     "station_spacing": 1.0
+    }
+   },
+   "recommended": "gradient"
+  }
+ },
+ {
+  "id": "F07",
+  "title_tr": "Sığ küçük top mermisi (drone)",
+  "title": "Small artillery shell, shallow, drone at 2 m",
+  "place": "Central Spain",
+  "setting": "Drone magnetometry at 2 m altitude detects small UXO with 2-18 nT anomalies.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 0.4,
+   "size": 0.16,
+   "material": "air",
+   "host": "soil",
+   "susceptibility_contrast": 3.0
+  },
+  "survey": {
+   "latitude": 40.4,
+   "longitude": -3.7,
+   "date": "2026-07-01",
+   "sensor_height": 2.0,
+   "gradiometer_height": 2.0
+  },
+  "sources": [
+   "https://www.preprints.org/manuscript/202512.0511/download/final_file"
+  ],
+  "assumptions": [
+   "105 mm shell as a sphere of equal volume (0.16 m), apparent susceptibility 3."
+  ],
+  "question": "Survey planning, Central Spain. Drone magnetometry at 2 m altitude detects small UXO with 2-18 nT anomalies. The target (small artillery shell, shallow, drone at 2 m) has its top about 0.4 m below the surface and is about 0.16 m across. The magnetic sensors (total-field and the lower gradiometer sensor) will be 2 m above the ground. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 0.1193,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.011,
+     "verdict": "not detectable",
+     "station_spacing": 0.1
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 2.2747,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 1.137,
+     "verdict": "not detectable",
+     "station_spacing": 0.5
+    },
+    "gradient": {
+     "available": true,
+     "peak": 1.4784,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 2.899,
+     "verdict": "marginal",
+     "station_spacing": 0.2
+    }
+   },
+   "recommended": "gradient"
+  }
+ },
+ {
+  "id": "F08",
+  "title_tr": "Aynı mermi, yerde gradyometreyle",
+  "title": "Same shell, ground gradiometer",
+  "place": "Central Spain",
+  "setting": "As F07, surveyed on foot with a fluxgate gradiometer.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 0.4,
+   "size": 0.16,
+   "material": "air",
+   "host": "soil",
+   "susceptibility_contrast": 3.0
+  },
+  "survey": {
+   "latitude": 40.4,
+   "longitude": -3.7,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.preprints.org/manuscript/202512.0511/download/final_file"
+  ],
+  "assumptions": [
+   "As F07."
+  ],
+  "question": "Survey planning, Central Spain. As F07, surveyed on foot with a fluxgate gradiometer. The target (same shell, ground gradiometer) has its top about 0.4 m below the surface and is about 0.16 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 0.1193,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.011,
+     "verdict": "not detectable",
+     "station_spacing": 0.1
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 36.8375,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 18.418,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.2
+    },
+    "gradient": {
+     "available": true,
+     "peak": 103.732,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 203.435,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.1
+    }
+   },
+   "recommended": "gradient"
+  }
+ },
+ {
+  "id": "F09",
+  "title_tr": "3 m derinde 50 kg bomba (yerde)",
+  "title": "50 kg bomb at 3 m, ground survey",
+  "place": "Central Germany",
+  "setting": "Maximum detection distance tables for WWII bombs with magnetometers.",
+  "target": {
+   "shape": "sphere",
+   "depth_top": 3,
+   "size": 0.4,
+   "material": "air",
+   "host": "soil",
+   "susceptibility_contrast": 3.0
+  },
+  "survey": {
+   "latitude": 51.0,
+   "longitude": 10.0,
+   "date": "2026-07-01"
+  },
+  "sources": [
+   "https://www.sphengineering.com/news/estimates-of-various-uxo-unexploded-ordnance-maximum-detection-distances-using-magnetometers"
+  ],
+  "assumptions": [
+   "50 kg bomb as a sphere of equal volume (0.4 m), apparent susceptibility 3."
+  ],
+  "question": "Survey planning, Central Germany. Maximum detection distance tables for WWII bombs with magnetometers. The target (50 kg bomb at 3 m, ground survey) has its top about 3 m below the surface and is about 0.4 m across. Would a gravity survey, a total-field magnetic survey or a magnetic gradiometer survey detect it with standard field equipment? For each method, estimate the peak anomaly, say whether it is clearly detectable, marginal or not detectable, and recommend a station spacing.",
+  "reference": {
+   "detectability": "0.3.0",
+   "methods": {
+    "gravity": {
+     "available": true,
+     "peak": 0.0419,
+     "units": "µGal",
+     "noise": 11.1803,
+     "snr": 0.004,
+     "verdict": "not detectable",
+     "station_spacing": 0.5
+    },
+    "magnetic": {
+     "available": true,
+     "peak": 13.7782,
+     "units": "nT",
+     "noise": 2.0001,
+     "snr": 6.889,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.5
+    },
+    "gradient": {
+     "available": true,
+     "peak": 9.6404,
+     "units": "nT",
+     "noise": 0.5099,
+     "snr": 18.906,
+     "verdict": "clearly detectable",
+     "station_spacing": 0.5
+    }
+   },
+   "recommended": "gradient"
+  }
+ }
+]

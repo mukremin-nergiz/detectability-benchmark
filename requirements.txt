@@ -1,0 +1,2 @@
+detectability==0.3.0
+anthropic>=2.6

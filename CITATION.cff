@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+title: "Detectability benchmark: survey-planning questions for language models, with physics-based reference answers"
+type: dataset
+abstract: >-
+  Fifty realistic near-surface survey-planning scenarios (karst, mine workings, tunnels, archaeology, geology and ore,
+  ferrous objects and unexploded ordnance), each based on a published case study or survey guidance, with its sources,
+  assumptions and a natural-language question. Reference answers for gravity, total-field magnetic and magnetic
+  gradiometer surveys are computed with Detectability 0.3.0. A pilot run scores Claude Opus 5.5 with and without the
+  Detectability tool.
+authors:
+  - given-names: "Mükremin"
+    family-names: "Nergiz"
+    affiliation: "Independent Researcher, Sivas, Türkiye"
+    orcid: "https://orcid.org/0009-0001-6789-2774"
+version: "0.1.0"
+date-released: "2026-11-07"
+license: CC-BY-4.0
+repository-code: "https://github.com/mukremin-nergiz/detectability-benchmark"
+url: "https://detectability.mukreminnergiz.com"
+references:
+  - type: software
+    title: "Detectability: Pre-survey detectability, modelled and reproducible"
+    authors:
+      - given-names: "Mükremin"
+        family-names: "Nergiz"
+        orcid: "https://orcid.org/0009-0001-6789-2774"
+    version: "0.3.0"
+    doi: 10.5281/zenodo.23949047
+keywords:
+  - geophysics
+  - near-surface
+  - survey design
+  - benchmark
+  - large language models
+  - gravity
+  - magnetics
