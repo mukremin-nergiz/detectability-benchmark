@@ -1,5 +1,8 @@
 # Detectability benchmark
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24025503.svg)](https://doi.org/10.5281/zenodo.24025503)
+[![check](https://github.com/mukremin-nergiz/detectability-benchmark/actions/workflows/check.yml/badge.svg)](https://github.com/mukremin-nergiz/detectability-benchmark/actions/workflows/check.yml)
+
 Can a language model tell, before fieldwork, whether a gravity or magnetic survey will see a buried target? This
 repository holds realistic survey-planning questions, reference answers computed with the validated forward models of
 [Detectability](https://github.com/mukremin-nergiz/detectability) (DOI
@@ -85,6 +88,8 @@ python run_pilot.py --models claude-opus-5-5   # a new run (about USD 4.50 for b
 ## Licence and citation
 
 Code: BSD 3-Clause (`LICENSE`). Data (`data/`, `results/`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-To cite, use `CITATION.cff`.
+
+Cite the benchmark with its DOI: [10.5281/zenodo.24025503](https://doi.org/10.5281/zenodo.24025503) (all versions;
+version 0.1.0 is [10.5281/zenodo.24025504](https://doi.org/10.5281/zenodo.24025504)). `CITATION.cff` has the details.
 
 Author: Mükremin Nergiz, independent researcher, ORCID [0009-0001-6789-2774](https://orcid.org/0009-0001-6789-2774).

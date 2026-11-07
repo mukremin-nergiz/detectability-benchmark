@@ -14,6 +14,14 @@ authors:
     affiliation: "Independent Researcher, Sivas, Türkiye"
     orcid: "https://orcid.org/0009-0001-6789-2774"
 version: "0.1.0"
+doi: 10.5281/zenodo.24025503
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24025503
+    description: "All versions (concept DOI)"
+  - type: doi
+    value: 10.5281/zenodo.24025504
+    description: "Version 0.1.0"
 date-released: "2026-11-07"
 license: CC-BY-4.0
 repository-code: "https://github.com/mukremin-nergiz/detectability-benchmark"
